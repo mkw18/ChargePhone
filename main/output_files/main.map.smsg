@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at keyMatrix.v(31): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at keyMatrix.v(67): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at DigChoose.v(11): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at mechine.v(33): always construct contains both blocking and non-blocking assignments

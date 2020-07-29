@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone\scan\simulation\qsim
+vscan
+Z1 !s100 9G`fHcTmhD:WFjNUZMY2[0
+Z2 IVmJ^lHAgnf^4h?b>g6A2E0
+Z3 VPa;1QfaV`2^:OObiQ39YC1
+Z4 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone\scan\simulation\qsim
+Z5 w1575880160
+Z6 8scan.vo
+Z7 Fscan.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|scan.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1575880161.699000
+Z12 !s107 scan.vo|
+!s101 -O0
+vscan_vlg_check_tst
+!i10b 1
+Z13 !s100 n^c0UaYPF6cHGdejeo5Z^1
+Z14 Ic0cZR`VX:F__NdV0Pl]hi3
+Z15 VWKenikIiBXS0AR8@UYne?2
+R4
+Z16 w1575880159
+Z17 8scan.vt
+Z18 Fscan.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1575880161.939000
+Z20 !s107 scan.vt|
+Z21 !s90 -work|work|scan.vt|
+!s101 -O0
+R10
+vscan_vlg_sample_tst
+!i10b 1
+Z22 !s100 anjEz1Vo_JC@5i:[2VJKI3
+Z23 I1=SBUnQg^KgKAOeZd;Szd0
+Z24 Vh5AKf>gV1@@]L9[E`1Vfa2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vscan_vlg_vec_tst
+!i10b 1
+!s100 Fn1[oa?[L`>QD6gL^i?M^1
+Ig6Y[eAE3M[JF@JJnTzA2b1
+Z25 V`SC6>oSjQ;RM1TVaRPH9F2
+R4
+R16
+R17
+R18
+Z26 L0 234
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone\freq\simulation\modelsim
+vfreq
+IEX4QlUNQ4l0<P<Qn4Y=PV2
+Vhh>DiJZY]<`djIPJReP;23
+Z1 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone\freq\simulation\modelsim
+w1576461777
+8freq.vo
+Ffreq.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 [_^J1QOF_@LaJH1C?5Jk80
+!s85 0
+!s108 1576461791.695000
+!s107 freq.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|freq.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vfreq_test
+!i10b 1
+!s100 0bGE>jF[:]P0>m<_PP4z_1
+IBjc>CQf@m[WhXg=5X]`BI3
+VO`RgWO3Ol1Po2C;ch1D=31
+R1
+w1575873716
+8C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/freq/freq_test.v
+FC:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/freq/freq_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1576461791.994000
+!s107 C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/freq/freq_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/freq|C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/freq/freq_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/freq -O0

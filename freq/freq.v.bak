@@ -1,0 +1,24 @@
+module freq (CLK,OCLK);
+   input CLK;
+   output OCLK;
+   reg OCLK;
+   reg [12:0]cnt;
+   
+   initial
+	   begin
+      cnt=0;
+		OCLK = 0;
+		end
+	 
+   always @ (posedge CLK)
+      begin
+	      cnt = cnt + 1;
+         if (cnt == 1000)
+	         begin
+		      OCLK = ~OCLK;
+		      cnt = 0;
+		      end
+		end
+
+endmodule
+	

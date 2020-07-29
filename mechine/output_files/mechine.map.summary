@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 16 19:24:31 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : mechine
+Top-level Entity Name : mechine
+Family : Cyclone II
+Total logic elements : 266
+    Total combinational functions : 265
+    Dedicated logic registers : 54
+Total registers : 54
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

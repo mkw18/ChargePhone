@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone1\mechine(1)\simulation\modelsim
+vmechine
+I6Yc51i0kI`55j8gJ47gLF2
+VjMol2IUE^47nRSBeUd4@R3
+Z1 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone1\mechine(1)\simulation\modelsim
+w1576828030
+8mechine.vo
+Fmechine.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 W6AdTSjQM=RlLl4I?>?1H1
+!s85 0
+!s108 1576828044.495000
+!s107 mechine.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|mechine.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vmechine_test
+!i10b 1
+!s100 NTMZXUIOH4TJ>ajcQ6i4^0
+IDSgJcIk4gLOA=Z?Xo7M]B0
+V_ZW:`DJNU1`c<h;IY1BiT3
+R1
+w1576733847
+8C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1)/mechine_test.v
+FC:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1)/mechine_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1576828044.955000
+!s107 C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1)/mechine_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1)|C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1)/mechine_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1) -O0

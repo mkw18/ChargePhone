@@ -1,0 +1,41 @@
+|DigChoose
+CLK => dig[0]~reg0.CLK
+CLK => dig[1]~reg0.CLK
+CLK => dig[2]~reg0.CLK
+CLK => dig[3]~reg0.CLK
+CLK => num[0]~reg0.CLK
+CLK => num[1]~reg0.CLK
+CLK => num[2]~reg0.CLK
+CLK => num[3]~reg0.CLK
+money[0] => Mod0.IN8
+money[0] => Div1.IN8
+money[1] => Mod0.IN7
+money[1] => Div1.IN7
+money[2] => Mod0.IN6
+money[2] => Div1.IN6
+money[3] => Mod0.IN5
+money[3] => Div1.IN5
+money[4] => Mod0.IN4
+money[4] => Div1.IN4
+restime[0] => Div0.IN9
+restime[0] => Mod1.IN9
+restime[1] => Div0.IN8
+restime[1] => Mod1.IN8
+restime[2] => Div0.IN7
+restime[2] => Mod1.IN7
+restime[3] => Div0.IN6
+restime[3] => Mod1.IN6
+restime[4] => Div0.IN5
+restime[4] => Mod1.IN5
+restime[5] => Div0.IN4
+restime[5] => Mod1.IN4
+dig[0] <= dig[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig[1] <= dig[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig[2] <= dig[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig[3] <= dig[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[0] <= num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[1] <= num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[2] <= num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[3] <= num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

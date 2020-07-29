@@ -1,0 +1,31 @@
+`timescale 10 ns / 1 ns
+
+module keyMatrix_test;
+
+	reg CLK;
+	reg [3:0] C;
+
+	wire [3:0] R;
+	wire [4:0] num;
+	wire startSet,start,clear,enter;
+
+	keyMatrix km(CLK,C,R,startSet,num,start,clear,enter);
+	
+	always #2
+		CLK = ~CLK;
+	
+	initial
+	begin
+		C = 4'b1111;
+		CLK = 0;
+		#20;
+		C = 4'b1110;
+		#10;
+		C = 4'b1101;
+		#10;
+		C = 4'b1011;
+		#10;
+		C = 4'b0111;
+		#10;
+	end
+endmodule

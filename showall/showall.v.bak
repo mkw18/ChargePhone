@@ -1,0 +1,12 @@
+module showall(CLK,money,restime,dig,seg);
+   input CLK;
+	input [4:0] money;
+	input [5:0] restime;
+	output [3:0] dig;
+	output [6:0] seg;
+	wire [3:0] num;
+	
+	DigChoose dc(CLK,money,restime,dig,num);
+	show sh(num,seg);
+	
+endmodule

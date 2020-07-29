@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 16 10:02:43 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : freq
+Top-level Entity Name : freq
+Family : Cyclone II
+Total logic elements : 25
+    Total combinational functions : 25
+    Dedicated logic registers : 14
+Total registers : 14
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

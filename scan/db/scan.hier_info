@@ -1,0 +1,28 @@
+|scan
+CLK => negCnt[0].CLK
+CLK => negCnt[1].CLK
+CLK => negCnt[2].CLK
+CLK => negCnt[3].CLK
+CLK => isPush.CLK
+CLK => round[0].CLK
+CLK => round[1].CLK
+CLK => R[0]~reg0.CLK
+CLK => R[1]~reg0.CLK
+CLK => R[2]~reg0.CLK
+CLK => R[3]~reg0.CLK
+CLK => posCnt[0].CLK
+CLK => posCnt[1].CLK
+CLK => posCnt[2].CLK
+CLK => posCnt[3].CLK
+CLK => startSet~reg0.CLK
+C[0] => Equal0.IN3
+C[1] => Equal0.IN2
+C[2] => Equal0.IN1
+C[3] => Equal0.IN0
+R[0] <= R[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R[2] <= R[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R[3] <= R[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+startSet <= startSet~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

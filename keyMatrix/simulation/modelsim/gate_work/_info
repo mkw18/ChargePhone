@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone1\keyMatrix\simulation\modelsim
+vkeyMatrix
+IihG57Azzg000CFE?k:FN72
+VEIa4<b>fG`T9bU52?`EGB3
+Z1 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone1\keyMatrix\simulation\modelsim
+w1576685083
+8keyMatrix.vo
+FkeyMatrix.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nkey@matrix
+!i10b 1
+!s100 ]3HMeJ^U[I67mY`IH9kFf2
+!s85 0
+!s108 1576685100.324000
+!s107 keyMatrix.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|keyMatrix.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vkeyMatrix_test
+!i10b 1
+!s100 6:ieMYZodGOR_8jo>3Wne3
+I9W@ZLTf;JYL:A4g[G766n3
+VIiB8j?mX_;:0nm4=LZ<eN2
+R1
+w1576684883
+8C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/keyMatrix/keyMatrix_test.v
+FC:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/keyMatrix/keyMatrix_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1576685100.880000
+!s107 C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/keyMatrix/keyMatrix_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/keyMatrix|C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/keyMatrix/keyMatrix_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/keyMatrix -O0
+nkey@matrix_test

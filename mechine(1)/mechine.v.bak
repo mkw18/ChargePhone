@@ -1,0 +1,6 @@
+module mechine(CLK,startSet,num,start,clear,enter,money,restime,timeout);
+   input CLK,startSet,start,clear,enter;
+	input [4:0] num;
+	output reg [4:0] money;
+	output reg [5:0] restime;
+	output reg timeout;

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\freq\simulation\qsim
+vfreq
+Z1 I<XOY`RU;06Q4nJTm0eo[U3
+Z2 Vhh>DiJZY]<`djIPJReP;23
+Z3 dC:\altera\13.0sp1\projects\2018011501eda2\freq\simulation\qsim
+Z4 w1575874453
+Z5 8freq.vo
+Z6 Ffreq.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 9VN79iInl@BO6z`fMbl;52
+!s85 0
+Z10 !s108 1575874454.679000
+Z11 !s107 freq.vo|
+Z12 !s90 -work|work|freq.vo|
+!s101 -O0
+vfreq_vlg_check_tst
+!i10b 1
+!s100 [6=<T9]kbCMFK6@479]]j1
+IaM06[dEP@TiXS5mon@hmC1
+V5S<HZ8z>nT7AL@]mBIzMS3
+R3
+Z13 w1575874452
+Z14 8freq.vt
+Z15 Ffreq.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1575874454.909000
+Z17 !s107 freq.vt|
+Z18 !s90 -work|work|freq.vt|
+!s101 -O0
+R8
+vfreq_vlg_sample_tst
+!i10b 1
+!s100 W?cV8n_^Soz>Yb^j4z4d20
+IYi9JP;0kGhg8Q0JT^N[721
+VCOXTZI4_QXVgHliO:]i?j2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vfreq_vlg_vec_tst
+!i10b 1
+!s100 _SJB=g=FT9H6=n^Z]H0h:3
+IJ85fFV=bnD>lChL0>9^QL1
+V1;CdMaYCSU3Ljk=MJUNTA1
+R3
+R13
+R14
+R15
+L0 152
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

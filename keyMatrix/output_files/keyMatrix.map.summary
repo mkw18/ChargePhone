@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Dec 19 00:04:25 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : keyMatrix
+Top-level Entity Name : keyMatrix
+Family : Cyclone II
+Total logic elements : 101
+    Total combinational functions : 101
+    Dedicated logic registers : 49
+Total registers : 49
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

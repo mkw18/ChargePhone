@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Dec 19 00:04:31 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : keyMatrix
+Top-level Entity Name : keyMatrix
+Family : Cyclone II
+Device : EP2C5T144C6
+Timing Models : Final
+Total logic elements : 101 / 4,608 ( 2 % )
+    Total combinational functions : 101 / 4,608 ( 2 % )
+    Dedicated logic registers : 49 / 4,608 ( 1 % )
+Total registers : 49
+Total pins : 18 / 89 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

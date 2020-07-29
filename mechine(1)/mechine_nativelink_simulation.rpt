@@ -1,0 +1,129 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  mechine.vo
+Sim SDF file          :  mechine__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File mechine_run_msim_gate_verilog.do already exists - backing up current file as mechine_run_msim_gate_verilog.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # ERROR: No extended dataflow license exists
+ModelSim-Altera Info: # do mechine_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {mechine.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module mechine
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	mechine
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1) {C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1)/mechine_test.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module mechine_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	mechine_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  mechine_test
+ModelSim-Altera Info: # vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps mechine_test 
+ModelSim-Altera Info: # Loading work.mechine_test
+ModelSim-Altera Info: # Loading work.mechine
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_ff
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_clkctrl
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux41
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ena_reg
+ModelSim-Altera Info: # SDF 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading instances from mechine_v.sdo
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # Loading timing data from mechine_v.sdo
+ModelSim-Altera Info: # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /mechine_test File: C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/mechine(1)/mechine_test.v
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           File in use by: SC  Hostname: DESKTOP-A1GBR7G  ProcessID: 7600
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Attempting to use alternate WLF file "./wlft9sj92f".
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Using alternate file: ./wlft9sj92f
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # Press  3 key
+ModelSim-Altera Info: # money 255
+ModelSim-Altera Info: # time 255
+ModelSim-Altera Info: # Press 11 key
+ModelSim-Altera Info: # money   0
+ModelSim-Altera Info: # time   0
+ModelSim-Altera Info: # Press  1 key
+ModelSim-Altera Info: # money   1
+ModelSim-Altera Info: # time   2
+ModelSim-Altera Info: # Press  5 key
+ModelSim-Altera Info: # money  15
+ModelSim-Altera Info: # time  30
+ModelSim-Altera Info: # Press 12 key
+ModelSim-Altera Info: # money   0
+ModelSim-Altera Info: # time   0
+ModelSim-Altera Info: # Press  2 key
+ModelSim-Altera Info: # money   2
+ModelSim-Altera Info: # time   4
+ModelSim-Altera Info: # Press  4 key
+ModelSim-Altera Info: # money  20
+ModelSim-Altera Info: # time  40
+ModelSim-Altera Info: # Press 13 key
+ModelSim-Altera Info: # money  20
+ModelSim-Altera Info: # time  33
+ModelSim-Altera Info: # Press  3 key
+ModelSim-Altera Info: # money  20
+ModelSim-Altera Info: # time  23
+ModelSim-Altera Info: # Press 11 key
+ModelSim-Altera Info: # money   0
+ModelSim-Altera Info: # time   0
+ModelSim-Altera Info: # Press  1 key
+ModelSim-Altera Info: # money   1
+ModelSim-Altera Info: # time   2
+ModelSim-Altera Info: # Press 10 key
+ModelSim-Altera Info: # money  10
+ModelSim-Altera Info: # time  20
+ModelSim-Altera Info: # Press  7 key
+ModelSim-Altera Info: # money   7
+ModelSim-Altera Info: # time  14
+ModelSim-Altera Info: # Press 12 key
+ModelSim-Altera Info: # money   0
+ModelSim-Altera Info: # time   0
+ModelSim-Altera Info: # Break key hit 
+ModelSim-Altera Info: # Simulation stop requested.
+Info: NativeLink simulation flow was successful

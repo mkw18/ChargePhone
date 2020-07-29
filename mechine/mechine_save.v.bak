@@ -1,0 +1,139 @@
+module mechine_save(CLK,startSet,num,start,clear,enter,money,restime,timeout);
+   input CLK,startSet,start,clear,enter;
+	input [4:0] num;
+	output reg [4:0] money;
+	output reg [5:0] restime;
+	output reg timeout;
+	
+	parameter S0 = 2'b00, S1 = 2'b01, S2 = 2'b10;
+	parameter second = 25000;
+	parameter pause = 250000;
+	
+	reg [1:0] state;
+	reg timer;
+	reg [17:0] pause_count;
+	reg [14:0] time_count;
+	
+	reg last_set;
+	wire set = ((last_set != startSet) && startSet);
+	
+	
+	initial
+	begin
+	   state <= S0;
+		timer <= 0;
+		pause_count <= 0;
+		time_count <= 0;
+		money <= 31;
+		restime <= 63;
+		timeout <= 1;
+	end
+	
+	always @ (posedge CLK)
+	begin
+	   case (state)
+		S0:
+		begin
+		   if (set)
+			begin
+			   if (start)
+				begin
+					state <= S1;
+				   timeout <= 0;
+					money <= 0;
+					restime <= 0;
+					timer <= 1;
+					time_count <= 0;
+				end
+				else
+				   state <= S0;
+			end
+			else
+			begin
+			   state <= S0;
+				money <= 31;
+				restime <= 63;
+			end
+		end
+		S1:
+		begin
+		   if (money == 31 && restime == 63)
+			   state <= S0;
+			else
+			begin
+			   if (set)
+				begin
+				   if (enter)
+					   state <= S2;
+					else
+					begin
+					   state <= S1;
+						if (clear || start)
+						begin
+						   if (clear)
+							begin
+							   money <= 0;
+								restime <= 0;
+								timer <= 1;
+								time_count <= 0;
+							end
+							else
+							begin
+							   if (money == 31 && restime == 63)
+								begin
+								   money <= 0;
+									restime <= 0;
+									timer <= 0;
+									time_count <= 0;
+								end
+							end
+						end
+						else if (num < 10)
+						begin
+						   timer <= 0;
+							time_count <= 0;
+							money <= (money * 10 + num) % 100;
+							if (money > 20)
+							   money <= 20;
+							restime <= money * 2;
+						end
+					end
+				end
+				if (timer)
+				begin
+				   if (pause_count < pause)
+					   pause_count <= pause_count + 1;
+					else
+					begin
+					   pause_count <= pause + 1;
+						state <= S0;
+						timer <= 0;
+						pause_count <= 0;
+					end
+				end
+			end
+		end
+		S2:
+		begin
+		   if (time_count < second)
+			   time_count <= time_count + 1;
+			else
+			   time_count <= 0;
+			if (time_count == second - 1)
+			begin
+			   if (restime != 0)
+				   restime <= restime - 1;
+				if (restime == 0)
+				   money <= 0;
+			end
+			if (money == 0)
+			begin
+			   state <= S1;
+				timer <= 1;
+				pause_count <= 0;
+			end
+		end
+		endcase
+		last_set <= startSet;
+	end
+endmodule

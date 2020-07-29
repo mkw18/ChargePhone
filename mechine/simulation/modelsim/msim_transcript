@@ -1,0 +1,158 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do mechine_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {mechine.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mechine
+# 
+# Top level modules:
+# 	mechine
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/mechine {C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/mechine/mechine_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mechine_test
+# 
+# Top level modules:
+# 	mechine_test
+# 
+# vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  mechine_test
+# vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps mechine_test 
+# Loading work.mechine_test
+# Loading work.mechine
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: SC  Hostname: DESKTOP-A1GBR7G  ProcessID: 7600
+# 
+#           Attempting to use alternate WLF file "./wlftetiqzh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftetiqzh
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Press  3 key
+# money 255
+# time 255
+# Press 11 key
+# money   0
+# time   0
+# Press  1 key
+# money   1
+# time   2
+# Press  5 key
+# money  15
+# time  30
+# Press 13 key
+# money  15
+# time  23
+# Press  2 key
+# money   2
+# time   4
+# Press  4 key
+# money  20
+# time  40
+# Press 12 key
+# money   0
+# time   0
+# Press 11 key
+# money   0
+# time   0
+# Press  4 key
+# money   4
+# time   8
+# Press  3 key
+# money  20
+# time  40
+# Press  6 key
+# money   6
+# time  12
+# Press 13 key
+# money   6
+# time   5
+# Press  3 key
+# money   0
+# time   0
+# Press 11 key
+# money   0
+# time   0
+# Press  1 key
+# money   1
+# time   2
+# Press 13 key
+# money   0
+# time   0
+# Press 11 key
+# money   0
+# time   0
+# Press  2 key
+# money   2
+# time   4
+# Press 13 key
+# money   0
+# time   0
+# Press 11 key
+# money   0
+# time   0
+# Press  3 key
+# money   3
+# time   6
+# Press 13 key
+# money   0
+# time   0
+# Press 11 key
+# money   0
+# time   0
+# Press  4 key
+# money   4
+# time   8
+# Press 13 key
+# money   4
+# time   1
+# Press 11 key
+# money   0
+# time   0
+# Press  5 key
+# money   5
+# time  10
+# Press 13 key
+# money   5
+# time   3
+# Press 12 key
+# money   0
+# time   0
+# Press 11 key
+# money   0
+# time   0
+# Press  6 key
+# money   6
+# time  12
+# Press 13 key
+# money   6
+# time   5
+# Break key hit 
+# Break in Module mechine_test at C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone/mechine/mechine_test.v line 10

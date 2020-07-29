@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone\setNum\simulation\qsim
+vsetNum
+Z1 ITDTCFB7EIKIOYYWmDb]Yc1
+Z2 VkOML;CIA3CQT?5O^PBBBA2
+Z3 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone\setNum\simulation\qsim
+Z4 w1575893110
+Z5 8setNum.vo
+Z6 FsetNum.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nset@num
+!i10b 1
+Z10 !s100 b97Cdm:<`SlDJYO74J02@2
+!s85 0
+Z11 !s108 1575893112.212000
+Z12 !s107 setNum.vo|
+Z13 !s90 -work|work|setNum.vo|
+!s101 -O0
+vsetNum_vlg_check_tst
+!i10b 1
+!s100 XP?;oW[_U]L9_GS8H^5nR0
+IJl:[YCgL@;5zca[B68Ikn1
+V^4YoH9GXSY[maH@jJZ?VJ3
+R3
+Z14 w1575893109
+Z15 8setNum.vt
+Z16 FsetNum.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1575893112.452000
+Z18 !s107 setNum.vt|
+Z19 !s90 -work|work|setNum.vt|
+!s101 -O0
+R8
+nset@num_vlg_check_tst
+vsetNum_vlg_sample_tst
+!i10b 1
+!s100 `TEFJ5z:hSb>VZHMnJhjU2
+I=2BYOk1hjf48mSRN5jK?j2
+VS3ihO40bPOPXMZEUCNb^`3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nset@num_vlg_sample_tst
+vsetNum_vlg_vec_tst
+!i10b 1
+!s100 lEHi_V`f1EjEXHjWijmhS1
+ITn6b;Pia@MC9gImgYXIj62
+VFDXXFVJ]bc`?ijB<`LFIH0
+R3
+R14
+R15
+R16
+L0 308
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nset@num_vlg_vec_tst

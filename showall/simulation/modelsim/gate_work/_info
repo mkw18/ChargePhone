@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone1\showall\simulation\modelsim
+vshowall
+I4;Fz_9FILcA2SfJG[^NSM0
+V<HRNcU82?A9zfCUK<dkLi1
+Z1 dC:\altera\13.0sp1\projects\2018011501eda2\ChargePhone1\showall\simulation\modelsim
+w1576829339
+8showall.vo
+Fshowall.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 lIUeGhmVz[m?_P]>1W03B1
+!s85 0
+!s108 1576829351.749000
+!s107 showall.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|showall.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vshowall_test
+!i10b 1
+!s100 9Ql=KX8Rk8T?W2:_mDMOY2
+I@0mF21HZ>9Ud@53aPHRCU2
+Val]<dZ1]2XXjAnTn]XkC82
+R1
+w1576685880
+8C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/showall/showall_test.v
+FC:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/showall/showall_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1576829352.379000
+!s107 C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/showall/showall_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/showall|C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/showall/showall_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/projects/2018011501eda2/ChargePhone1/showall -O0

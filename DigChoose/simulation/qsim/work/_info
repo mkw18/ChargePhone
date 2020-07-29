@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\2018011501eda2\DigChoose\simulation\qsim
+vDigChoose
+Z1 Ic5C_zLMQj@W8UeJ9hM4MK2
+Z2 Vn3fXj:UmDVQV43Z_kZ7311
+Z3 dC:\altera\13.0sp1\projects\2018011501eda2\DigChoose\simulation\qsim
+Z4 w1576156029
+Z5 8DigChoose.vo
+Z6 FDigChoose.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@dig@choose
+!i10b 1
+Z10 !s100 j`6GIBFRid33GWUL6Pjn<2
+!s85 0
+Z11 !s108 1576156032.728000
+Z12 !s107 DigChoose.vo|
+Z13 !s90 -work|work|DigChoose.vo|
+!s101 -O0
+vDigChoose_vlg_check_tst
+!i10b 1
+!s100 b;ITZ=`Mmh7FoS<2mlAH@0
+I_d3d93>4NkF]oQjCZ^^Jc0
+V1:o@PXJ?Fe@=R?=E[?@WK2
+R3
+Z14 w1576156028
+Z15 8DigChoose.vt
+Z16 FDigChoose.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1576156033.127000
+Z18 !s107 DigChoose.vt|
+Z19 !s90 -work|work|DigChoose.vt|
+!s101 -O0
+R8
+n@dig@choose_vlg_check_tst
+vDigChoose_vlg_sample_tst
+!i10b 1
+!s100 kYbolR>^9ezWYg61dLTZH0
+I5=SHMhf8PQ[hhlI8I?4Df0
+VK6Nhck57_AEo^Y9Xc`>5Z0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@dig@choose_vlg_sample_tst
+vDigChoose_vlg_vec_tst
+!i10b 1
+!s100 ZV0a14^KY`@QT3Az;z7^71
+I1mnRFGU;?@FTGR[9>Mc9^0
+VGWj2:]Xjm<IZ9l<Nm8BXk1
+R3
+R14
+R15
+R16
+L0 289
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@dig@choose_vlg_vec_tst
